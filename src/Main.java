@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int age = 7;
+        int age = 18;
 
         int passangers = 65;
         int tottalSeats = 102;
@@ -21,13 +21,13 @@ public class Main {
         // Домашнее задание - 1. Задане 2
         System.out.println("Домашнее задание - 1. Задание 2");
         if (age >= 7 && age < 18) {
-            System.out.println("Ребенок ходит в школу.");
+            System.out.println("Ребенку " + age + " лет, он ходит в школу.");
         }
         if (age >= 18 && age < 27) {
-            System.out.println("Подросток закончил школу и может отправляться в университет.");
+            System.out.println("Подростку " + age + " лет, он закончил школу и может отправляться в университет.");
         }
         if (age >= 24) {
-            System.out.println("Человек окончил университет и ему пора искать первую работу.");
+            System.out.println("Человеку " + age + " лет, он окончил университет и ему пора искать первую работу.");
         }
         if (age < 7) {
             System.out.println("Возраст человека не подходит условиям задачи");
@@ -59,11 +59,11 @@ public class Main {
         // Домашнее задание - 2. Задание 2
         System.out.println("Домашнее задание - 2. Задание 2");
         if (age >= 7 && age < 18) {
-            System.out.println("Ребенок ходит в школу.");
+            System.out.println("Ребенку " + age + " лет, он ходит в школу.");
         } else if (age >= 18 && age < 27) {
-            System.out.println("Подросток закончил школу и может отправляться в университет.");
+            System.out.println("Подростку " + age + " лет, он закончил школу и может отправляться в университет.");
         } else if (age > 27) {
-            System.out.println("Человек окончил университет и ему пора искать первую работу.");
+            System.out.println("Человеку " + age + " лет, он окончил университет и ему пора искать первую работу.");
         } else {
             System.out.println("Возраст человека не подходит условиям задачи");
         }
@@ -81,13 +81,13 @@ public class Main {
         // Домашнее задание - 3. Задание 1
         System.out.println("Домашнее задание - 3. Задание 1");
         if (age >= 2 && age <= 6) {
-            System.out.println("Маленькому человеку нужно ходить в детский сад.");
+            System.out.println("Маленькому человеку " + age + " лет, нужно ходить в детский сад.");
         } else if (age >= 7 && age <= 18) {
-            System.out.println("Человеку нужно ходить в школу.");
+            System.out.println("Человеку " + age + " лет, нужно ходить в школу.");
         } else if (age > 18 && age < 24) {
-            System.out.println("Человек учится в университете.");
+            System.out.println("Человеку " + age + " лет, он учится в университете.");
         } else {
-            System.out.println("Человеку пора на работу.");
+            System.out.println("Человеку" + age + " лет. Пора на работу.");
         }
 
         // Домашнее задание - 3. Задание 2
@@ -114,7 +114,7 @@ public class Main {
             System.out.println("Число " + one + " больше остальных.");
         } else if (two > one && two > free) {
             System.out.println("Число " + two + " больше остальных.");
-        } else if (free > one && free > two){
+        } else if (free > one && free > two) {
             System.out.println("Число " + free + " больше остальных.");
         }
     }
